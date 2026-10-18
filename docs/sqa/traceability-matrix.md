@@ -32,11 +32,16 @@ updated whenever an artifact instance is created or reviewed.
 | [DICT-001] | DICT | en | it | [BC-001], [SA-001] | - | [RC-006] |
 | [ADR-0001] | ADR | - | - | [BC-001], [SA-001], [MIL-001] | source code | [RC-007] |
 | [ADR-0002] | ADR | - | - | [BC-001], [MIL-001], [MIL-002] | source code | [RC-008] |
+| [UCD-001] | UCD | en | it | [SA-001], [BC-001] | [US-001], [UC-001] | [RC-010] |
+| [US-001] | US | en | it | [UCD-001], [BC-001] | [UC-001] | [RC-011] |
+| [UC-001] | UC | en | it | [UCD-001], [US-001] | [SSD-001] | [RC-012] |
+| [SSD-001] | SSD | en | it | [UC-001] | source code | [RC-013] |
+| src/ and tests/ of MIL-002 | PY | - | - | [MIL-002], [UC-001], [ADR-0002] | - | [RC-014] |
 | src/ and tests/ of MIL-001 | PY | - | - | [MIL-001], [ADR-0002] | - | [RC-009] |
 
 ## Coverage Notes
 
-- Types with no instance yet: UC and SSD (planned in MIL-002).
+- Types with no instance yet: DM (concepts are in [DICT-001]), OC, SD, DCD, ERD (not needed by this small app, see [ADR-0002]).
 - No DM exists: the three domain concepts are recorded in [DICT-001].
 - In Upstream `-` means foundational; in Downstream `-` means nothing is built on it yet; in Last Reviewed `-` means no `RC-*` exists yet.
 
@@ -58,6 +63,15 @@ updated whenever an artifact instance is created or reviewed.
 [RC-007]: ./reviews/rc-007-adr-0001.md
 [RC-008]: ./reviews/rc-008-adr-0002.md
 [RC-009]: ./reviews/rc-009-code-mil-001.md
+[UCD-001]: ../use-case-diagram.md
+[US-001]: ../user-stories.md
+[UC-001]: ../uc-001/uc.md
+[SSD-001]: ../uc-001/ssd.md
+[RC-010]: ./reviews/rc-010-use-case-diagram.md
+[RC-011]: ./reviews/rc-011-user-story.md
+[RC-012]: ./reviews/rc-012-use-case.md
+[RC-013]: ./reviews/rc-013-ssd.md
+[RC-014]: ./reviews/rc-014-code-mil-002.md
 [ADR-0001]: ../adr/adr-0001-urllib-instead-of-requests.md
 [ADR-0002]: ../adr/adr-0002-layers-and-mvvm.md
 [cb17f31]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/cb17f312c33552dcff957cfe50ffa2b69249d737

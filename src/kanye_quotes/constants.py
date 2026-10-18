@@ -3,6 +3,12 @@
 ## The Kanye Rest API endpoint that returns one random quote as JSON.
 API_URL = "https://api.kanye.rest/"
 
+## User-Agent sent to the API, which refuses the default urllib one (403).
+USER_AGENT = (
+    "kanye-quotes/0.1 "
+    "(+https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes)"
+)
+
 ## Seconds to wait for the API before giving up.
 REQUEST_TIMEOUT_SECONDS = 10
 
