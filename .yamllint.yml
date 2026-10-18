@@ -1,0 +1,8 @@
+# yamllint configuration for the project's YAML files (QC-YML-001).
+extends: default
+rules:
+  document-start: disable
+  truthy:
+    check-keys: false
+  line-length:
+    max: 100

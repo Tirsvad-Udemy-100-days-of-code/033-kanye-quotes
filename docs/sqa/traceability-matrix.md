@@ -36,6 +36,8 @@ updated whenever an artifact instance is created or reviewed.
 | [US-001] | US | en | it | [UCD-001], [BC-001] | [UC-001] | [RC-011] |
 | [UC-001] | UC | en | it | [UCD-001], [US-001] | [SSD-001] | [RC-012] |
 | [SSD-001] | SSD | en | it | [UC-001] | source code | [RC-013] |
+| YAML files of MIL-003 | YML | - | - | [MIL-003] | - | [RC-015] |
+| Workflow of MIL-003 | WF | - | - | [MIL-003], YML files of MIL-003 | - | [RC-016] (Go-with-conditions) |
 | src/ and tests/ of MIL-002 | PY | - | - | [MIL-002], [UC-001], [ADR-0002] | - | [RC-014] |
 | src/ and tests/ of MIL-001 | PY | - | - | [MIL-001], [ADR-0002] | - | [RC-009] |
 
@@ -72,6 +74,8 @@ updated whenever an artifact instance is created or reviewed.
 [RC-012]: ./reviews/rc-012-use-case.md
 [RC-013]: ./reviews/rc-013-ssd.md
 [RC-014]: ./reviews/rc-014-code-mil-002.md
+[RC-015]: ./reviews/rc-015-yaml-mil-003.md
+[RC-016]: ./reviews/rc-016-workflow-mil-003.md
 [ADR-0001]: ../adr/adr-0001-urllib-instead-of-requests.md
 [ADR-0002]: ../adr/adr-0002-layers-and-mvvm.md
 [cb17f31]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/cb17f312c33552dcff957cfe50ffa2b69249d737
