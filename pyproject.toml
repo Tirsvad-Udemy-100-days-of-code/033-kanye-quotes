@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kanye-quotes"
+version = "0.1.0"
+description = "Kanye Says...: a tkinter app that shows a random Kanye West quote from the Kanye Rest API on every click."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.13"
+# No runtime dependencies: the API is called with the standard library (ADR-0001).
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
+
+[project.scripts]
+kanye-quotes = "kanye_quotes.presentation.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kanye_quotes = ["presentation/assets/*.png"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+extend-exclude = ["framework", "docs"]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "D"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+mypy_path = "src"
