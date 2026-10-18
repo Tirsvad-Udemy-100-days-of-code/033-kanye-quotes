@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging and build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage output
+.coverage
+htmlcov/
+
+# Secrets: personal tokens, never committed
+.env
+.env.*
+!.env.example
+
+# Doxygen output
+docs/doxygen/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
