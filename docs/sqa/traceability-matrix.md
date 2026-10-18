@@ -30,10 +30,13 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-002] | MIL | en | it | [BC-001], [MIL-001] | [MIL-003] | [RC-004] |
 | [MIL-003] | MIL | en | it | [BC-001], [MIL-002] | - | [RC-005] |
 | [DICT-001] | DICT | en | it | [BC-001], [SA-001] | - | [RC-006] |
+| [ADR-0001] | ADR | - | - | [BC-001], [SA-001], [MIL-001] | source code | [RC-007] |
+| [ADR-0002] | ADR | - | - | [BC-001], [MIL-001], [MIL-002] | source code | [RC-008] |
+| src/ and tests/ of MIL-001 | PY | - | - | [MIL-001], [ADR-0002] | - | [RC-009] |
 
 ## Coverage Notes
 
-- Types with no instance yet: ADR (planned in MIL-001), UC and SSD (planned in MIL-002).
+- Types with no instance yet: UC and SSD (planned in MIL-002).
 - No DM exists: the three domain concepts are recorded in [DICT-001].
 - In Upstream `-` means foundational; in Downstream `-` means nothing is built on it yet; in Last Reviewed `-` means no `RC-*` exists yet.
 
@@ -52,3 +55,8 @@ updated whenever an artifact instance is created or reviewed.
 [RC-004]: ./reviews/rc-004-mil-002.md
 [RC-005]: ./reviews/rc-005-mil-003.md
 [RC-006]: ./reviews/rc-006-dictionary.md
+[RC-007]: ./reviews/rc-007-adr-0001.md
+[RC-008]: ./reviews/rc-008-adr-0002.md
+[RC-009]: ./reviews/rc-009-code-mil-001.md
+[ADR-0001]: ../adr/adr-0001-urllib-instead-of-requests.md
+[ADR-0002]: ../adr/adr-0002-layers-and-mvvm.md
