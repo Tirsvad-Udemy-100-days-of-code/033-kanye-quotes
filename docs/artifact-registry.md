@@ -22,7 +22,7 @@ document of a type. `Primary File` may contain a glob (e.g.
 | SSD | System Sequence Diagram | docs/uc-*/ssd.md | 002 |
 | UCD | Use Case Diagram | docs/use-case-diagram.md | 002 |
 | US | User Story | docs/user-stories.md | 002 |
-| RC | SQA Review Record | docs/sqa/reviews/rc-*.md | 015 |
+| RC | SQA Review Record | docs/sqa/reviews/rc-*.md | 017 |
 
 ## Languages
 
