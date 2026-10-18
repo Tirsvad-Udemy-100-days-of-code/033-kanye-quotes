@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [cb17f31] |
 
 Allowed Status values: `Proposed`, `Accepted`, `Rejected`, `Deprecated`, `Superseded by ADR-NNNN`.
 
@@ -52,3 +52,4 @@ The quote client calls the API with `urllib.request` and `json` from the standar
 [BC-001]: ../business-case.md
 [SA-001]: ../stakeholder-analysis.md
 [MIL-001]: ../milestones/mil-001-repository-setup.md
+[cb17f31]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/cb17f312c33552dcff957cfe50ffa2b69249d737

@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1a0e653] |
 
 ---
 
@@ -74,3 +74,4 @@ Decide whether the project is ready to share: a README that a newcomer can follo
 [BC-001]: ../business-case.md
 [SA-001]: ../stakeholder-analysis.md
 [MIL-002]: ./mil-002-quote-app.md
+[1a0e653]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/1a0e653399f6762271c3695596dd2675af61120b

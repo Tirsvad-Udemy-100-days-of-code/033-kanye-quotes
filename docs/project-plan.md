@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [1a0e653] |
 
 ---
 
@@ -85,3 +85,4 @@ A No-Go on a gateway moves every later gateway by the days needed to fix and re-
 [MIL-001]: ./milestones/mil-001-repository-setup.md
 [MIL-002]: ./milestones/mil-002-quote-app.md
 [MIL-003]: ./milestones/mil-003-documentation-release.md
+[1a0e653]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/1a0e653399f6762271c3695596dd2675af61120b

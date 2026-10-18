@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [cb17f31] |
 
 ---
 
@@ -59,3 +59,4 @@ Go — all Mandatory criteria pass; the review is autonomous and not independent
 
 [MIL-001]: ../../milestones/mil-001-repository-setup.md
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[cb17f31]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/cb17f312c33552dcff957cfe50ffa2b69249d737

@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [cb17f31] |
 
 ---
 
@@ -60,3 +60,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-009]: ./reviews/rc-009-code-mil-001.md
 [ADR-0001]: ../adr/adr-0001-urllib-instead-of-requests.md
 [ADR-0002]: ../adr/adr-0002-layers-and-mvvm.md
+[cb17f31]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/033-kanye-quotes/commit/cb17f312c33552dcff957cfe50ffa2b69249d737
